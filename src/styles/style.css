@@ -1,0 +1,67 @@
+/*:root sirve para declarar variables globales de css si quisiesemos seguir expandiendo nuestro proyectos los variables de colores y tamaños se deberian declarar aqui como variables globales*/
+
+html, body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*Imagenes*/
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; 
+}
+
+.image-item {
+  flex: 0 0 23%;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Ancla footer parte superior*/
+.return-link {
+  color: white;    
+  font-size: 13px;   
+}
+
+/*Hover galeria imagenes*/
+.img-transition {
+  transition: transform 0.3s ease;
+}
+
+.img-transition:hover {
+  transform: scale(1.1);
+}
+
+/*Separacion iconos*/
+#enlaces a {
+  margin-right: 20px;
+}
+
+/*Separacion informacion general footer*/
+#informacion-general {
+  margin-bottom: 48px;
+}
+
+/*Separacion del texto con la imagen */
+#informacion-general p {
+  margin-top: 10px;
+}
+
+/*Justificar el texto de los proyectos*/
+.text-justify {
+  text-align: justify;
+  letter-spacing: -0.5px;
+}
+
+/*Distancia de button al p en informacion adicional*/
+.project-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
