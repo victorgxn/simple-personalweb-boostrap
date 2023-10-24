@@ -5,232 +5,247 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyecto victorgxn</title>
+  <!--=================== Link bootstrap ====================-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!--=================== Main CSS ====================-->
   <link rel="stylesheet" href="./styles/style.css">
+  <!--=================== Link fuente ====================-->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700">
+  <!--=================== Link font-awesome ====================-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!--=================== Link Remixicons ====================-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Navbar -->
-  <a id="top"></a>
-  <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Profile Victor</a>
-      <!-- Navbar responsive -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Div contenido del navbar-->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#informacion">Información sobre mí<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#aficiones">Aficiones</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#ciudades">Ciudades que he visitado</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#enlaces">Enlaces a sitios de interés</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#actividades">Actividades Recientes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#galeria">Galería de Imágenes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#info-adicional">Info adicional</a>
-          </li>
-        </ul>
+  <!--=================== Header ====================-->
+  <header id="top">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand"><i class="ri-code-s-slash-line"></i>victorgxn</a>
+        <!-- Navbar responsive -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Div contenido del navbar-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#informacion">Información sobre mí<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aficiones">Aficiones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ciudades">Ciudades que he visitado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#enlaces">Enlaces a sitios de interés</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#actividades">Actividades Recientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#galeria">Galería de Imágenes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info-adicional">Info adicional</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--=================== Main ====================-->
+  <main>
+    <!-- Informacion sobre mi -->
+    <div id="informacion" class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1><i class="fas fa-user"></i> Información sobre mí</h1>
+      <p>Soy un estudiante de último año del grado superior de desarrollo de aplicaciones web con una gran pasión por el
+        desarrollo de software y un firme compromiso con el aprendizaje continuo y la adopción de nuevas tecnologías.
+        Además, formo parte de la comunidad de estudiantes en el campus 42, reconocido como uno de los centros de
+        programación más innovadores a nivel mundial. Mi enfoque principal en 42 se centra en el backend utilizando el
+        lenguaje C, junto con la exploración de otras tecnologías de bajo nivel.</p>
+
+      <!-- Botón de descarga del currículum -->
+      <a href="./cv/cv prueba.pdf" class="btn btn-primary" download>Descargar Currículum</a>
+    </div>
+
+    <!-- Aficiones -->
+    <div id="aficiones" class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1><i class="fa-solid fa-mug-saucer"></i> Aficiones</h1>
+      <p>Dentro de mis aficiones podemos destacar trabajar en proyectos personales de programación, que no tengan nada
+        que
+        ver con lo que suelo realizar en mis estudios, ir al gimnasio y la edicion de video y foto </p>
+    </div>
+
+    <!-- Ciudades que he visitado -->
+    <div id="ciudades" class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1><i class="fa-solid fa-city"></i> Ciudades que he visitado</h1>
+      <p>
+        Londres, Reino Unido: Ciudad histórica y moderna con diversidad cultural, una rica escena teatral y museos de
+        renombre mundial, ubicada a lo largo del río Támesis.
+      </p>
+      <p>
+        Tokio, Japón: Metrópolis ultramoderna que equilibra la tecnología avanzada con tradiciones antiguas, conocida
+        por
+        su eficiencia, sistema de transporte, cultura pop y vibrante escena culinaria.
+      </p>
+      <p>
+        California, Estados Unidos: Estado diverso en la costa oeste de EE. UU. con clima soleado, playas hermosas,
+        paisajes variados, ciudades icónicas, entretenimiento, tecnología, actividades al aire libre y una destacada
+        gastronomía y vinicultura.
+      </p>
+    </div>
+
+    <!-- Sitio de interes -->
+    <div id="enlaces" class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1><i class="fa-solid fa-link"></i> Enlaces a sitios de interés</h1>
+      <p class="font-weight-bold text-uppercase mb-3 border-bottom">Contacta conmigo</p>
+      <div class="d-flex justify-content-center">
+        <!-- GitHub -->
+        <a href="https://github.com/victorgxn" target="_blank" class="mr-4">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/victorgxn/" target="_blank" class="mr-4">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <!-- Twitter -->
+        <a href="https://twitter.com/home" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
       </div>
     </div>
-  </nav>
 
-  <!-- Informacion sobre mi -->
-  <div id="informacion" class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1><i class="fas fa-user"></i> Información sobre mí</h1>
-    <p>Soy un estudiante de último año del grado superior de desarrollo de aplicaciones web con una gran pasión por el
-      desarrollo de software y un firme compromiso con el aprendizaje continuo y la adopción de nuevas tecnologías.
-      Además, formo parte de la comunidad de estudiantes en el campus 42, reconocido como uno de los centros de
-      programación más innovadores a nivel mundial. Mi enfoque principal en 42 se centra en el backend utilizando el
-      lenguaje C, junto con la exploración de otras tecnologías de bajo nivel.</p>
-
-    <!-- Botón de descarga del currículum -->
-    <a href="./cv/cv prueba.pdf" class="btn btn-primary" download>Descargar Currículum</a>
-  </div>
-
-  <!-- Aficiones -->
-  <div id="aficiones" class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1><i class="fa-solid fa-mug-saucer"></i> Aficiones</h1>
-    <p>Dentro de mis aficiones podemos destacar trabajar en proyectos personales de programación, que no tengan nada que
-      ver con lo que suelo realizar en mis estudios, ir al gimnasio y la edicion de video y foto </p>
-  </div>
-
-  <!-- Ciudades que he visitado -->
-  <div id="ciudades" class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1><i class="fa-solid fa-city"></i> Ciudades que he visitado</h1>
-    <p>
-      Londres, Reino Unido: Ciudad histórica y moderna con diversidad cultural, una rica escena teatral y museos de
-      renombre mundial, ubicada a lo largo del río Támesis.
-    </p>
-    <p>
-      Tokio, Japón: Metrópolis ultramoderna que equilibra la tecnología avanzada con tradiciones antiguas, conocida por
-      su eficiencia, sistema de transporte, cultura pop y vibrante escena culinaria.
-    </p>
-    <p>
-      California, Estados Unidos: Estado diverso en la costa oeste de EE. UU. con clima soleado, playas hermosas,
-      paisajes variados, ciudades icónicas, entretenimiento, tecnología, actividades al aire libre y una destacada
-      gastronomía y vinicultura.
-    </p>
-  </div>
-
-  <!-- Sitio de interes -->
-  <div id="enlaces" class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1><i class="fa-solid fa-link"></i> Enlaces a sitios de interés</h1>
-    <p class="font-weight-bold text-uppercase mb-3 border-bottom">Contacta conmigo</p>
-    <div class="d-flex justify-content-center">
-      <!-- GitHub -->
-      <a href="https://github.com/victorgxn" target="_blank" class="mr-4">
-        <i class="fab fa-github fa-2x"></i>
-      </a>
-      <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/victorgxn/" target="_blank" class="mr-4">
-        <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      <!-- Twitter -->
-      <a href="https://twitter.com/home" target="_blank">
-        <i class="fab fa-twitter fa-2x"></i>
-      </a>
+    <!-- Actividades recientes -->
+    <div id="actividades" class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1><i class="fa-solid fa-person-dress"></i> Actividades recientes</h1>
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Actividad</th>
+            <th>Descripción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>06/07/23</td>
+            <td>Piscina 42 Telefonica</td>
+            <td>Prueba de acceso de 26 dias al campus 42 en julio.</td>
+          </tr>
+          <tr>
+            <td>06/10/23</td>
+            <td>Nasa App Challengue</td>
+            <td>Primer hackaton de la nasa en malaga.</td>
+          </tr>
+          <tr>
+            <td>16/10/23</td>
+            <td>RAG-NAROK</td>
+            <td>Evento de la creacion de un bot de repuestas con python consumiendo de la api de open ai.</td>
+          </tr>
+          <tr>
+            <td>19/10/23</td>
+            <td>Tech in finance</td>
+            <td>Charla tecnologia y finanzas.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </div>
 
-  <!-- Actividades recientes -->
-  <div id="actividades" class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1><i class="fa-solid fa-person-dress"></i> Actividades recientes</h1>
-    <table class="table table-striped table-hover">
-      <thead>
-        <tr>
-          <th>Fecha</th>
-          <th>Actividad</th>
-          <th>Descripción</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>06/07/23</td>
-          <td>Piscina 42 Telefonica</td>
-          <td>Prueba de acceso de 26 dias al campus 42 en julio.</td>
-        </tr>
-        <tr>
-          <td>06/10/23</td>
-          <td>Nasa App Challengue</td>
-          <td>Primer hackaton de la nasa en malaga.</td>
-        </tr>
-        <tr>
-          <td>16/10/23</td>
-          <td>RAG-NAROK</td>
-          <td>Evento de la creacion de un bot de repuestas con python consumiendo de la api de open ai.</td>
-        </tr>
-        <tr>
-          <td>19/10/23</td>
-          <td>Tech in finance</td>
-          <td>Charla tecnologia y finanzas.</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <!-- Galería de imágenes / Responsive col-md-3 -->
-  <div class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1 id="galeria"><i class="fa-solid fa-image"></i> Galería de imágenes</h1>
-    <!-- Div row (grid system bootstrap) class col-md-3 en cada div de las imagenes
+    <!-- Galería de imágenes / Responsive col-md-3 -->
+    <div class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1 id="galeria"><i class="fa-solid fa-image"></i> Galería de imágenes</h1>
+      <!-- Div row (grid system bootstrap) class col-md-3 en cada div de las imagenes
     col-md-3 desglosado:
     "col" = columna grind system. / "md" = Clase mediana dispositivos con un ancho de pantalla igual o superior a 768 píxeles
     "3" =  número de columnas que ocupará la columna en el grid. Mas info grid system bootstrap.
     <div class="row" -->
-    <div class="row">
-      <!-- Foto 1 -->
-      <div class="col-md-3">
-        <div class="image-item">
-          <img src="./img/imagen1.jpg" alt="Imagen 1" class="img-thumbnail img-fluid img-transition">
+      <div class="row">
+        <!-- Foto 1 -->
+        <div class="col-md-3">
+          <div class="image-item">
+            <img src="./img/imagen1.jpg" alt="Imagen 1" class="img-thumbnail img-fluid img-transition">
+          </div>
         </div>
-      </div>
-      <!-- Foto 2 -->
-      <div class="col-md-3">
-        <div class="image-item">
-          <img src="./img/imagen2.jpg" alt="Imagen 2" class="img-thumbnail img-fluid img-transition">
+        <!-- Foto 2 -->
+        <div class="col-md-3">
+          <div class="image-item">
+            <img src="./img/imagen2.jpg" alt="Imagen 2" class="img-thumbnail img-fluid img-transition">
+          </div>
         </div>
-      </div>
-      <!-- Foto 3 -->
-      <div class="col-md-3">
-        <div class="image-item">
-          <img src="./img/imagen3.jpg" alt="Imagen 3" class="img-thumbnail img-fluid img-transition">
+        <!-- Foto 3 -->
+        <div class="col-md-3">
+          <div class="image-item">
+            <img src="./img/imagen3.jpg" alt="Imagen 3" class="img-thumbnail img-fluid img-transition">
+          </div>
         </div>
-      </div>
-      <!-- Foto 4 -->
-      <div class="col-md-3">
-        <div class="image-item">
-          <img src="./img/imagen4.jpg" alt="Imagen 4" class="img-thumbnail img-fluid img-transition">
+        <!-- Foto 4 -->
+        <div class="col-md-3">
+          <div class="image-item">
+            <img src="./img/imagen4.jpg" alt="Imagen 4" class="img-thumbnail img-fluid img-transition">
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Informacion general / Responsive col-md-4-->
-  <div id="info-adicional" class="container mt-5 bg-light rounded p-4 text-center shadow">
-    <h1><i class="fa-solid fa-list-check"></i> Información adicional</h1>
-    <p class="font-weight-bold text-uppercase mb-3 border-bottom">Proyectos recientes</p>
-    <!--Mismo procedimiento que en el apartado anterior pero con col-md-4, el 4 hace que la columna ocupe un tercio del ancho-->
-    <div class="row">
-      <!-- Proyecto 1 -->
-      <div class="col-md-4">
-        <div class="image-item project-container">
-          <img src="./img/project3.jpg" alt="Imagen 1">
-          <p class="text-justify">El juego la busqueda del tesoro esta formado de un tablero 4x5 con 3 minas y un tesoro
-            el jugador debe introducir
-            coordenadas hastar encontrar con una mina (acaba el programa) o el tesoro (ganas).</p>
-          <a href="https://github.com/victorgxn/busqueda-del-tesoro" class="btn btn-primary" target="_blank">Ir al
-            proyecto</a>
+    <!-- Informacion general / Responsive col-md-4-->
+    <div id="info-adicional" class="container mt-5 bg-light rounded p-4 text-center shadow">
+      <h1><i class="fa-solid fa-list-check"></i> Información adicional</h1>
+      <p class="font-weight-bold text-uppercase mb-3 border-bottom">Proyectos recientes</p>
+      <!--Mismo procedimiento que en el apartado anterior pero con col-md-4, el 4 hace que la columna ocupe un tercio del ancho-->
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-md-4">
+          <div class="image-item project-container">
+            <img src="./img/project3.jpg" alt="Imagen 1">
+            <p class="text-justify">El juego la busqueda del tesoro esta formado de un tablero 4x5 con 3 minas y un
+              tesoro
+              el jugador debe introducir
+              coordenadas hastar encontrar con una mina (acaba el programa) o el tesoro (ganas).</p>
+            <a href="https://github.com/victorgxn/busqueda-del-tesoro" class="btn btn-primary" target="_blank">Ir al
+              proyecto</a>
+          </div>
         </div>
-      </div>
-      <!-- Proyecto 2 -->
-      <div class="col-md-4">
-        <div class="image-item project-container">
-          <img src="./img/project2.jpg" alt="Imagen 2">
-          <p class="text-justify">Libft es el primer proyecto del campus 42 consite en crear nuestra primera libreria
-            estatica en C, cuenta con funciones de la libreria libc, otras funciones adicicionales y una parte bonus de
-            linked.</p>
-          <a href="https://github.com/victorgxn/libft" class="btn btn-primary" target="_blank">Ir al proyecto</a>
+        <!-- Proyecto 2 -->
+        <div class="col-md-4">
+          <div class="image-item project-container">
+            <img src="./img/project2.jpg" alt="Imagen 2">
+            <p class="text-justify">Libft es el primer proyecto del campus 42 consite en crear nuestra primera libreria
+              estatica en C, cuenta con funciones de la libreria libc, otras funciones adicicionales y una parte bonus
+              de
+              linked.</p>
+            <a href="https://github.com/victorgxn/libft" class="btn btn-primary" target="_blank">Ir al proyecto</a>
+          </div>
         </div>
-      </div>
-      <!-- Proyecto 3 -->
-      <div class="col-md-4">
-        <div class="image-item project-container">
-          <img src="./img/project1.jpg" alt="Imagen 3">
-          <p class="text-justify">Consiste en un juego de cero jugadores, en el que su evolución es determinada por un
-            estado inicial. Se considera un sistema Turing completo que puede simular
-            cualquier otra
-            Máquina de Turing.</p>
-          <a href="https://github.com/victorgxn" class="btn btn-primary" target="_blank">Ir al proyecto</a>
+        <!-- Proyecto 3 -->
+        <div class="col-md-4">
+          <div class="image-item project-container">
+            <img src="./img/project1.jpg" alt="Imagen 3">
+            <p class="text-justify">Consiste en un juego de cero jugadores, en el que su evolución es determinada por un
+              estado inicial. Se considera un sistema Turing completo que puede simular
+              cualquier otra
+              Máquina de Turing.</p>
+            <a href="https://github.com/victorgxn" class="btn btn-primary" target="_blank">Ir al proyecto</a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Footer -->
+  </main>
+  <!--=================== Footer ====================-->
   <footer class="bg-dark text-light text-center py-3">
     <div class="container">
       <p>&copy; victorgxn</p>
       <a id="top-link" class="return-link" href="#top">Volver al principio</a>
     </div>
   </footer>
-  <!-- Librerias -->
+  <!--=================== LibreriasJS  ====================-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
