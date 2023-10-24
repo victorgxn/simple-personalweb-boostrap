@@ -1,5 +1,6 @@
 /*:root sirve para declarar variables globales de css si quisiesemos seguir expandiendo nuestro proyectos los variables de colores y tamaños se deberian declarar aqui como variables globales*/
 
+/*Fuente global*/
 html, body {
   font-family: 'Quicksand', sans-serif;
 }
@@ -20,7 +21,7 @@ html, body {
   height: auto;
 }
 
-/*Ancla footer parte superior*/
+/*Ancla footer hacia parte superior*/
 .return-link {
   color: white;    
   font-size: 13px;   
@@ -35,6 +36,7 @@ html, body {
   transform: scale(1.1);
 }
 
+/*Separacion nav del primer elemento container*/
 /*Separacion iconos*/
 #enlaces a {
   margin-right: 20px;
@@ -56,11 +58,20 @@ html, body {
   letter-spacing: -0.5px;
 }
 
-/*Distancia de button al p en informacion adicional*/
-.project-container {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+/*Cursor de la tabla*/
+table {
+  cursor: pointer;
+}
+ /*Distancia footer ultimo contenedor*/
+footer {
+  margin-top: 48px;
 }
 
+/* Ajustes altura boton y texto de los proyectos de informacion general */
+.image-item.project-container a.btn {
+  margin-bottom: 10px; 
+}
+
+.image-item.project-container p {
+  margin-top: 10px; 
+}
