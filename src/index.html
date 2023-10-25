@@ -19,6 +19,8 @@
   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <!--=================== Link Bootstrao icons ====================-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!--=================== Link AOS libreria animaciones en scroll ====================-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body data-bs-theme="light">
@@ -68,7 +70,8 @@
   <!--=================== Main ====================-->
   <main>
     <!-- Informacion sobre mi -->
-    <div id="informacion" class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <div id="informacion" class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in"
+      data-aos-duration="1000">
       <h1><i class="fas fa-user"></i> Información sobre mí</h1>
       <p>Soy un estudiante de último año del grado superior de desarrollo de aplicaciones web con una gran pasión por el
         desarrollo de software y un firme compromiso con el aprendizaje continuo y la adopción de nuevas tecnologías.
@@ -81,7 +84,8 @@
     </div>
 
     <!-- Aficiones -->
-    <div id="aficiones" class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <div id="aficiones" class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in"
+      data-aos-duration="1000">
       <h1><i class="fa-solid fa-mug-saucer"></i> Aficiones</h1>
       <p>Dentro de mis aficiones podemos destacar trabajar en proyectos personales de programación, que no tengan nada
         que
@@ -89,7 +93,8 @@
     </div>
 
     <!-- Ciudades que he visitado -->
-    <div id="ciudades" class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <div id="ciudades" class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in"
+      data-aos-duration="1000">
       <h1><i class="fa-solid fa-city"></i> Ciudades que he visitado</h1>
       <p>
         Londres, Reino Unido: Ciudad histórica y moderna con diversidad cultural, una rica escena teatral y museos de
@@ -108,7 +113,8 @@
     </div>
 
     <!-- Sitio de interes -->
-    <div id="enlaces" class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <div id="enlaces" class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in"
+      data-aos-duration="1000">
       <h1><i class="fa-solid fa-link"></i> Enlaces a sitios de interés</h1>
       <p class="font-weight-bold text-uppercase mb-3 border-bottom">Contacta conmigo</p>
       <div class="d-flex justify-content-center">
@@ -128,7 +134,8 @@
     </div>
 
     <!-- Actividades recientes -->
-    <div id="actividades" class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <div id="actividades" class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in"
+      data-aos-duration="1000">
       <h1><i class="fa-solid fa-person-dress"></i> Actividades recientes</h1>
       <table class="table table-striped table-hover">
         <thead>
@@ -164,7 +171,7 @@
     </div>
 
     <!-- Galería de imágenes / Responsive col-md-3 -->
-    <div class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <div class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in" data-aos-duration="1000">
       <h1 id="galeria"><i class="fa-solid fa-image"></i> Galería de imágenes</h1>
       <!-- Div row (grid system bootstrap) class col-md-3 en cada div de las imagenes
     col-md-3 desglosado:
@@ -199,8 +206,9 @@
       </div>
     </div>
 
-    <!-- Informacion general / Responsive col-md-4-->
-    <div id="info-adicional" class="container mt-5 bg-light rounded p-4 text-center shadow">
+    <!-- Informacion adicional (Proyectos) / Responsive col-md-4-->
+    <div id="info-adicional" class="container mt-5 bg-light rounded p-4 text-center shadow" data-aos="zoom-in"
+      data-aos-duration="1000">
       <h1><i class="fa-solid fa-list-check"></i> Información adicional</h1>
       <p class="font-weight-bold text-uppercase mb-3 border-bottom">Proyectos recientes</p>
       <!--Mismo procedimiento que en el apartado anterior pero con col-md-4, el 4 hace que la columna ocupe un tercio del ancho-->
@@ -249,10 +257,15 @@
       <a id="top-link" class="return-link" href="#top">Volver al principio</a>
     </div>
   </footer>
-  <!--=================== LibreriasJS  ====================-->
+  <!--=================== LibreriasJS Bootstrap  ====================-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--=================== LibreriasJS AOS  ====================-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
